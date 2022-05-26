@@ -1,0 +1,32 @@
+@import './utils/variables';
+@import './utils/reset';
+@import './base/normalizer';
+@import './base/visually-hidden';
+@import './base/common';
+
+@import './components/header/header';
+@import './components/logo';
+@import './components/header/header-nav';
+@import './components/header/contacts';
+@import './components/header/mobile-menu';
+@import './components/header/mobile-menu';
+
+@import './components/footer/footer';
+@import './components/footer/footer-address';
+@import './components/footer/footer-connect';
+@import './components/footer/subscription';
+
+@import './components/main-section';
+@import './components/details';
+@import './components/employment';
+@import './components/team/team';
+@import './components/team/team-connect';
+@import './components/clients';
+
+@import './components/main-modal/backdrop';
+@import './components/main-modal/main-modal';
+@import './components/main-modal/formfield';
+
+@import './components/portfolio/btn';
+@import './components/portfolio/card-set';
+
