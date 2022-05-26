@@ -15,7 +15,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main);
+    color: $main;
     margin-bottom: 20px;
 }
 
@@ -45,12 +45,12 @@
 
     &:hover,
     &:focus {
-        background-color: var(--link);
+        background-color: $link;
     }
 }
 
 .connect-list__icon {
     width: 20px;
     height: 20px;
-    fill: var(--main);
+    fill: $main;
 }

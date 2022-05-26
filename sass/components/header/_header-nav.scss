@@ -23,7 +23,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: $main-text-color;
     padding-top: 32px;
     padding-bottom: 32px;
     transition-property: color;
@@ -31,13 +31,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &--active {
-        color: var(--link);
+        color: $link;
 
         &::after {
             content: '';
             position: absolute;
             left: 0;
-            background-color: var(--link);
+            background-color: $link;
             border-radius: 2px;
             height: 4px;
             width: 100%;
@@ -56,6 +56,6 @@
         line-height: 1.14;
     }
     &:hover, &:focus {
-        color: var(--link);
+        color: $link;
     }
 }

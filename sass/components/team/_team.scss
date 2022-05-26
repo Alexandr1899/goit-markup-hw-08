@@ -1,5 +1,5 @@
 .team {
-    background-color: var(--second-back);
+    background-color: $second-back;
 }
 
 .team__top-text {
@@ -8,7 +8,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 30px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .team__item {
-    background-color: var(--main);
+    background-color: $main;
     padding-bottom: 24px;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
@@ -53,7 +53,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 10px;
 }
 
@@ -63,7 +63,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--second-text-color);
+    color: $second-text-color;
     margin-bottom: 16px;
 }
 

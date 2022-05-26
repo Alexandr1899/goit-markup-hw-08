@@ -33,10 +33,10 @@
     font-size: 12px;
     line-height: 1.67;
     letter-spacing: 0.02em;
-    color: var(--second-text-color);
+    color: $second-text-color;
 
     &:hover, &:focus {
-        color: var(--link);
+        color: $link;
     }
     @media screen and (min-width: 1200px) {
         font-size: 14px;

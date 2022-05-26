@@ -23,11 +23,11 @@
 
     &:hover,
     &:focus {
-        background-color: var(--main);
-        border: 1px solid var(--dark);
+        background-color: $main;
+        border: 1px solid $dark;
 
         @media screen and (min-width: 768px) {
-            background-color: var(--link);
+            background-color: $link;
             border: none;
         }
     }
@@ -36,11 +36,11 @@
 .team__contact-icon {
     width: 20px;
     height: 20px;
-    fill: var(--iconcolor);
+    fill: $iconcolor;
 }
 .team__contact-link:hover .team__contact-icon, 
 .team__contact-link:focus .team__contact-icon {
     @media screen and (min-width: 768px) {
-        fill: var(--main);
+        fill: $main;
     }
 }
