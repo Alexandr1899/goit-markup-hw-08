@@ -3,30 +3,18 @@
 @import './base/normalizer';
 @import './base/visually-hidden';
 @import './base/common';
-
-@import './components/header/header';
+@import './components/header';
 @import './components/logo';
-@import './components/header/header-nav';
-@import './components/header/contacts';
-@import './components/header/mobile-menu';
-@import './components/header/mobile-menu';
-
-@import './components/footer/footer';
-@import './components/footer/footer-address';
-@import './components/footer/footer-connect';
-@import './components/footer/subscription';
-
-@import './components/main-section';
+@import './components/mobile-menu';
+@import './components/footer';
+@import './components/phonetic';
+@import './components/portfolio';
+@import './components/hero';
 @import './components/details';
-@import './components/employment';
-@import './components/team/team';
-@import './components/team/team-connect';
+@import './components/work';
+@import './components/team';
 @import './components/clients';
+@import './components/modal';
 
-@import './components/main-modal/backdrop';
-@import './components/main-modal/main-modal';
-@import './components/main-modal/formfield';
 
-@import './components/portfolio/btn';
-@import './components/portfolio/card-set';
 

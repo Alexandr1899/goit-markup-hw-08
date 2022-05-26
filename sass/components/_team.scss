@@ -1,0 +1,115 @@
+.team {
+    background-color: var(--second-back);
+}
+
+.team__top-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+}
+
+.team__list {
+    margin-bottom: -30px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+.team__item {
+    background-color: var(--main);
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        margin-right: 30px;
+        width: calc(100% / 2 - 30px);
+    }
+    
+    @media screen and (min-width: 1200px) {
+        &:last-child {
+            margin-right: 0;
+        }
+        width: auto;
+    }
+}
+
+.team__img {
+}
+
+.team__member-name {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+
+.team__member-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    margin-bottom: 16px;
+}
+
+.team__contact-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team__contact-item {}
+
+.team__contact-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+
+    padding: 12px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+        border-radius: 50%;
+    }
+
+
+    &:hover,
+    &:focus {
+        background-color: var(--main);
+        border: 1px solid var(--dark);
+
+        @media screen and (min-width: 768px) {
+            background-color: var(--link);
+            border: none;
+        }
+    }
+}
+
+.team__contact-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--iconcolor);
+}
+
+.team__contact-link:hover .team__contact-icon,
+.team__contact-link:focus .team__contact-icon {
+    @media screen and (min-width: 768px) {
+        fill: var(--main);
+    }
+}
