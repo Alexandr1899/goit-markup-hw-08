@@ -848,7 +848,7 @@ body {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .phonetic__input {
-    width: 320px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1292,6 +1292,10 @@ body {
 .team__contact-list {
   display: flex;
   justify-content: center;
+}
+
+.team__contact-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .team__contact-link {

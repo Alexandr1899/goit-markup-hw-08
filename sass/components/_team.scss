@@ -72,7 +72,11 @@
     justify-content: center;
 }
 
-.team__contact-item {}
+.team__contact-item {
+    &:not(:last-child) {
+            margin-right: 10px;
+    }
+}
 
 .team__contact-link {
     display: block;
